@@ -1,0 +1,14 @@
+├── app
+│   ├── config
+│   │   └── db.config.js         # Database configuration (e.g., credentials, connection details)
+│   ├── controllers
+│   │   └── tutorial.controller.js # Business logic for handling requests and responses
+│   ├── models
+│   │   ├── db.js                # Database connection setup
+│   │   └── tutorial.model.js    # Schema and database query definitions
+│   └── routes
+│       └── tutorial.routes.js   # API route definitions for mapping HTTP requests to controllers
+├── package.json                 # Project metadata and dependencies
+├── package-lock.json            # Locks dependency versions for consistency
+├── server.js                    # Main entry point for starting the application
+└── test                         # Folder for writing unit/integration tests
